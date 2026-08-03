@@ -1,0 +1,67 @@
+:root,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  font-family: Inter, ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.media-viewer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.media {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.embed {
+  border: 0;
+}
+
+.audio-card,
+.empty {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  color: rgb(255 255 255 / 84%);
+  background: linear-gradient(145deg, rgb(26 29 43 / 94%), rgb(8 10 18 / 90%));
+  text-align: center;
+}
+
+.audio-mark,
+.empty span {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 16%);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 8%);
+  font-size: 26px;
+}
+
+.empty strong {
+  max-width: 26rem;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+audio {
+  width: min(90%, 520px);
+}
