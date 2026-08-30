@@ -21,8 +21,7 @@
       "label": "Media",
       "description": "Choose a local file or enter a live URL. Browser CORS and embed policies are respected.",
       "parent": "source",
-      "scope": "layer",
-      "mirrorEligible": true
+      "scope": "layer"
     },
     {
       "id": "mediaType",
